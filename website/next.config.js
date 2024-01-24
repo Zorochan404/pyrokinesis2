@@ -6,7 +6,7 @@ const nextConfig = {
   swcMinify: true,
   experimental: { appDir: true },
   images: {
-    domains: ["lab.basement.studio"],
+    domains: ["lab.basement.studio", "drive.proton.me"],
   },
   rewrites: async () => [
     {
